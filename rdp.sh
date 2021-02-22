@@ -18,7 +18,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-sudo apt -y install discord
+wget https://dl.discordapp.net/apps/linux/0.0.13/discord-0.0.13.deb
+sudo dpkg --install discord-0.0.13.deb
 sudo apt -y install firefox
 sudo adduser SAI1919 chrome-remote-desktop
 } &> /dev/null &&
